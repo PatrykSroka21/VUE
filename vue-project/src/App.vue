@@ -1,11 +1,15 @@
 <script>
+  import HelloWorld from '.components/HelloWorld.vue'
+
   export default {
-    components: {}
+    components: {
+      HelloWorld
+    }
   }
 </script>
 
 <template>
-  <header>My personal page</header>
+  <header>My personal page <HelloWorld /></header>
   <nav>
     <RouterLink to="/">Home</RouterLink>
 
