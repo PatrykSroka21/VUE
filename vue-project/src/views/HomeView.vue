@@ -1,5 +1,10 @@
 <script>
+  import HelloWorld from '.components/HelloWorld.vue'
+
   export default {
+    components: {
+      HelloWorld
+    },
     data() {
       return {
         n: true,
@@ -15,7 +20,7 @@
 </script>
 
 <template>
-  <h1>Hello and welcome to my website's homepage {{ name }} !</h1>
+  <HelloWorld />
 
   <input type="text" placeholder="name" v-model="name" />
 

@@ -3,7 +3,7 @@
     props: {
       msg: {
         type: String,
-        default: ''
+        default: 'Hi and Welcome to my home page!'
       }
     }
   }
